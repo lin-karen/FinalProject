@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="Idc-Fs-T8L">
             <objects>
-                <viewController id="t7h-Bo-PN9" sceneMemberID="viewController">
+                <viewController id="t7h-Bo-PN9" customClass="ViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yhl-fQ-kOg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,11 +26,11 @@
                                     <color key="titleColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S7v-6c-lZI" kind="show" id="Wkh-9Z-t2h"/>
+                                    <segue destination="013-2O-h0a" kind="show" id="zFS-jq-cQ8"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="otb-bN-UzI">
-                                <rect key="frame" x="87" y="198" width="240" height="240"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-06-26 at 11.41.23 AM" translatesAutoresizingMaskIntoConstraints="NO" id="otb-bN-UzI">
+                                <rect key="frame" x="54" y="169" width="307" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -41,12 +41,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HGz-xc-CC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1789.8550724637682" y="126.5625"/>
+            <point key="canvasLocation" x="2720" y="127"/>
         </scene>
-        <!--Name View Controller-->
+        <!--Action View Controller-->
         <scene sceneID="MAe-ls-xGk">
             <objects>
-                <viewController id="S7v-6c-lZI" customClass="NameViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TZJ-FT-Hfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UdS-f3-Ozh" userLabel="Exit" sceneMemberID="exit"/>
+                <viewController id="S7v-6c-lZI" customClass="ActionViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bxx-Qn-E3J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,11 +68,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="DONE"/>
                                 <connections>
-                                    <segue destination="013-2O-h0a" kind="show" id="bS0-a4-vxd"/>
+                                    <action selector="DoneButtonTapped:" destination="bxx-Qn-E3J" eventType="touchUpInside" id="GTw-XI-bxb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="what is your name?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-WV-he2">
-                                <rect key="frame" x="63" y="306" width="289" height="199"/>
+                                <rect key="frame" x="63" y="306" width="289" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="33"/>
                                 <nil key="textColor"/>
@@ -80,27 +82,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gcy-xj-qmU"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TZJ-FT-Hfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="UdS-f3-Ozh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2784.057971014493" y="126.5625"/>
+            <point key="canvasLocation" x="1168" y="1004"/>
         </scene>
-        <!--View Controller-->
+        <!--Change Name View Controller-->
         <scene sceneID="SdX-jg-HxA">
             <objects>
-                <viewController id="013-2O-h0a" sceneMemberID="viewController">
+                <viewController id="013-2O-h0a" customClass="ChangeNameViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Dc-qf-3ia">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKj-Q9-6An">
-                                <rect key="frame" x="46" y="214" width="285" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="47"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="where do you live?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpR-oZ-ocA">
                                 <rect key="frame" x="58" y="425" width="313" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +131,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VAG-1U-VSg"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tUd-FY-2rr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,7 +158,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="OKAY GOT IT!"/>
                                 <connections>
-                                    <segue destination="tcw-pJ-aG1" kind="show" id="E4v-li-nd5"/>
+                                    <segue destination="txv-9p-aoL" kind="show" id="ogM-xU-pfg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3e-2S-cTJ">
@@ -183,6 +180,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="G7b-Io-Vo9"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mkd-5N-qbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,11 +207,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="OK GOT IT!"/>
                                 <connections>
-                                    <segue destination="tcw-pJ-aG1" kind="show" id="OwJ-5s-ogV"/>
+                                    <segue destination="txv-9p-aoL" kind="show" id="TeB-c4-bZG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tub-EQ-75J">
-                                <rect key="frame" x="74" y="295" width="274" height="335"/>
+                                <rect key="frame" x="70" y="281" width="274" height="335"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-Starting a rooftop garden
 -Using public transportation, walking, and cycling, etc.
@@ -231,6 +230,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6wL-K2-vZ7"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MUA-OV-bAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -263,7 +264,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="OKAY GOT IT!"/>
                                 <connections>
-                                    <segue destination="tcw-pJ-aG1" kind="show" id="vHa-qO-uir"/>
+                                    <segue destination="txv-9p-aoL" kind="show" id="sj7-fe-2bw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqq-UF-XKX">
@@ -284,25 +285,211 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0Le-Zh-9sT"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBD-AP-xJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3709" y="878"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Gxj-Oo-acK">
+        <scene sceneID="cOe-DP-cs5">
             <objects>
-                <viewController id="tcw-pJ-aG1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZXK-L9-1rg">
+                <viewController id="5Lq-ut-6v7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QkO-9T-yWr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nkm-uQ-eHi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="OXp-Gl-iRM">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="C2P-sx-Pyp">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOOD SUSTAINABILITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZu-iH-tjj">
+                                <rect key="frame" x="37" y="130" width="341" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4Y-Ph-eKK">
+                                <rect key="frame" x="34" y="165" width="346" height="501"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Facts-
+  Around 150,000 tons of food is thrown away each year
+  Increase in industrial farm animal production has caused food production to become less sustainable.
+  Industrial farming uses a great amount of energy to feed only a small number of people.
+  Grocery stores throw away food that is misshapen or has cosmetic damage on their packaging.
+  Many consumers do not understand labels on food, and end up throwing away food due to miscommunication. Ex. Best Buy, Sell buy dates
+Things you can do-
+  Eating less meat or adapting   a vegetarian or vegan diet.
+  Producing more foods that are easier to sustain like soybeans, insects, wheat, etc.
+  Encourage manufactures to not overproduce and to properly inform their consumers.
+Learn more about how to live a sustainable lifestyle.
+Encourage people to use less packaging
+</mutableString>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="2OC-wk-Ifd"/>
+                        <viewLayoutGuide key="safeArea" id="EIk-Ha-ifV"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MFp-YN-aBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzu-Ay-fx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3709" y="1630"/>
+            <point key="canvasLocation" x="3244.9275362318845" y="2295.5357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Ea-Cq-9pH">
+            <objects>
+                <viewController id="uLB-92-26I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ktH-OM-1SQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-cI-L6Y">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="2H0-M5-cXs"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FASHION SUSTAINABILITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZ5-c5-nZ0">
+                                <rect key="frame" x="9" y="125" width="397" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AM-G3-xym">
+                                <rect key="frame" x="20" y="133" width="365" height="506"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Facts- 
+A person throws away up to 70 pounds of clothing per year
+A lot of clothing gets thrown away even before being worn
+Waste in fashion takes many years to decompose (Shoes take up to 1,000 years and clothing takes up to 40 years)
+	Things you can do-
+Donating clothes that don’t fit or are unwanted
+Shopping from sustainable clothing lines like : Levi’s, Reformation, StellaMcCartney, or H&amp;M Conscious
+Only buy what you need
+Only buy certain clothing items that are universal and are able to be multi purposed in different outfits 
+Ie. a classic white t-shirt that is a good quality, able to be used in many outfits
+</mutableString>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uPn-RM-V7e"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QNe-8x-7L8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4082.6086956521744" y="2295.5357142857142"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="8nI-lr-BVb">
+            <objects>
+                <viewController id="txv-9p-aoL" customClass="MenuViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="top" id="qcR-ax-RRk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pqj-jH-fi3">
+                                <rect key="frame" x="0.0" y="88" width="193" height="725"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yry-4d-InF">
+                                        <rect key="frame" x="29" y="56" width="134" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="XBg-o8-cwF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="Fashion">
+                                            <color key="titleColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="uLB-92-26I" kind="show" id="iME-YR-MpV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-dd-IJu">
+                                        <rect key="frame" x="53" y="186" width="87" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="tEU-GW-4Pg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="Food">
+                                            <color key="titleColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="5Lq-ut-6v7" kind="show" id="ZKN-YN-4eD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gC-qU-XNf">
+                                        <rect key="frame" x="24" y="317" width="145" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="8fA-4r-KJq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="Tracking">
+                                            <color key="titleColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="SYc-dd-IJu" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="45" id="9Lk-Ne-5QC"/>
+                                    <constraint firstItem="SYc-dd-IJu" firstAttribute="top" secondItem="yry-4d-InF" secondAttribute="bottom" constant="70" id="KMc-Fd-rGr"/>
+                                    <constraint firstItem="yry-4d-InF" firstAttribute="top" secondItem="Pqj-jH-fi3" secondAttribute="topMargin" constant="48" id="Rpd-KP-kTV"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="0gC-qU-XNf" secondAttribute="trailing" constant="16" id="S2j-G2-JOg"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="yry-4d-InF" secondAttribute="trailing" constant="22" id="Tb7-V3-IXN"/>
+                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="16" id="Wb0-HO-QX5"/>
+                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="top" secondItem="SYc-dd-IJu" secondAttribute="bottom" constant="71" id="ZHn-xw-0an"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="SYc-dd-IJu" secondAttribute="trailing" constant="45" id="duQ-C9-LT1"/>
+                                    <constraint firstItem="yry-4d-InF" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="21" id="e6B-ww-bLu"/>
+                                    <constraint firstAttribute="width" constant="193" id="g8u-7o-d94"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="0gC-qU-XNf" secondAttribute="bottom" constant="340" id="ze2-7F-hct"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Pqj-jH-fi3" firstAttribute="top" secondItem="wtl-66-wNY" secondAttribute="top" id="1Zg-xt-Lpg"/>
+                            <constraint firstItem="Pqj-jH-fi3" firstAttribute="bottom" secondItem="wtl-66-wNY" secondAttribute="bottom" id="Xwo-KA-NRl"/>
+                            <constraint firstItem="Pqj-jH-fi3" firstAttribute="leading" secondItem="wtl-66-wNY" secondAttribute="leading" id="mJA-U6-Jil"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wtl-66-wNY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Menu" id="Leg-8r-S7I">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-menu-50" springLoaded="YES" style="done" id="baj-FU-MBq">
+                            <color key="tintColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                            <connections>
+                                <action selector="openMenu:" destination="txv-9p-aoL" id="Q3z-C6-iEa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="LeadingConstraint" destination="mJA-U6-Jil" id="DQo-0l-5qd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsQ-ef-XDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3689.8550724637685" y="1587.7232142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wny-M5-9W8">
@@ -320,10 +507,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OqG-yH-gL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="665" y="127"/>
+            <point key="canvasLocation" x="1832" y="127"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2019-06-26 at 11.41.23 AM" width="120" height="120"/>
+        <image name="icons8-menu-50" width="50" height="50"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OwJ-5s-ogV"/>
+        <segue reference="sj7-fe-2bw"/>
     </inferredMetricsTieBreakers>
 </document>
