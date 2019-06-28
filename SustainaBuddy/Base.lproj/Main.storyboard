@@ -46,8 +46,6 @@
         <!--Action View Controller-->
         <scene sceneID="MAe-ls-xGk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TZJ-FT-Hfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="UdS-f3-Ozh" userLabel="Exit" sceneMemberID="exit"/>
                 <viewController id="S7v-6c-lZI" customClass="ActionViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bxx-Qn-E3J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -85,8 +83,10 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TZJ-FT-Hfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UdS-f3-Ozh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1168" y="1004"/>
+            <point key="canvasLocation" x="3219" y="-633"/>
         </scene>
         <!--Change Name View Controller-->
         <scene sceneID="SdX-jg-HxA">
@@ -150,7 +150,7 @@
                                 <rect key="frame" x="-44" y="120" width="502" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" cyan="1" magenta="0.0" yellow="0.69999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRY-9g-2tC">
@@ -176,6 +176,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sub" translatesAutoresizingMaskIntoConstraints="NO" id="cxc-vo-Xki">
+                                <rect key="frame" x="87" y="681" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="G7b-Io-Vo9"/>
@@ -199,7 +203,7 @@
                                 <rect key="frame" x="27" y="153" width="360" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" cyan="1" magenta="0.0" yellow="0.69999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nj-Yg-bnz">
@@ -226,6 +230,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="urban" translatesAutoresizingMaskIntoConstraints="NO" id="Beo-yM-M71">
+                                <rect key="frame" x="87" y="676" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6wL-K2-vZ7"/>
@@ -249,7 +257,7 @@
                                 <rect key="frame" x="20" y="135" width="374" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="21"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" cyan="1" magenta="0.0" yellow="0.69999999999999996" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8T-kl-gIJ">
@@ -281,6 +289,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="farm-house-in-cartoon-style-isolated-on-white-vector-15645181" translatesAutoresizingMaskIntoConstraints="NO" id="WQW-k6-HfO">
+                                <rect key="frame" x="87" y="679" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0Le-Zh-9sT"/>
@@ -321,7 +333,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4Y-Ph-eKK">
                                 <rect key="frame" x="34" y="165" width="346" height="501"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Facts-
+                                <string key="text">Facts-
   Around 150,000 tons of food is thrown away each year
   Increase in industrial farm animal production has caused food production to become less sustainable.
   Industrial farming uses a great amount of energy to feed only a small number of people.
@@ -333,11 +345,15 @@ Things you can do-
   Encourage manufactures to not overproduce and to properly inform their consumers.
 Learn more about how to live a sustainable lifestyle.
 Encourage people to use less packaging
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pcody44Xi" translatesAutoresizingMaskIntoConstraints="NO" id="Qx8-jn-iAb">
+                                <rect key="frame" x="87" y="674" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EIk-Ha-ifV"/>
@@ -347,7 +363,7 @@ Encourage people to use less packaging
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wzu-Ay-fx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3244.9275362318845" y="2295.5357142857142"/>
+            <point key="canvasLocation" x="3020" y="2332"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Ea-Cq-9pH">
@@ -357,13 +373,6 @@ Encourage people to use less packaging
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-cI-L6Y">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="2H0-M5-cXs"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FASHION SUSTAINABILITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZ5-c5-nZ0">
                                 <rect key="frame" x="9" y="125" width="397" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -374,7 +383,7 @@ Encourage people to use less packaging
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AM-G3-xym">
                                 <rect key="frame" x="20" y="133" width="365" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Facts- 
+                                <string key="text">Facts- 
 A person throws away up to 70 pounds of clothing per year
 A lot of clothing gets thrown away even before being worn
 Waste in fashion takes many years to decompose (Shoes take up to 1,000 years and clothing takes up to 40 years)
@@ -384,11 +393,15 @@ Shopping from sustainable clothing lines like : Levi’s, Reformation, StellaMcC
 Only buy what you need
 Only buy certain clothing items that are universal and are able to be multi purposed in different outfits 
 Ie. a classic white t-shirt that is a good quality, able to be used in many outfits
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-Df-rUa">
+                                <rect key="frame" x="87" y="647" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uPn-RM-V7e"/>
@@ -398,7 +411,62 @@ Ie. a classic white t-shirt that is a good quality, able to be used in many outf
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNe-8x-7L8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4082.6086956521744" y="2295.5357142857142"/>
+            <point key="canvasLocation" x="3708.6956521739135" y="2331.6964285714284"/>
+        </scene>
+        <!--Tracker View Controller-->
+        <scene sceneID="8Zy-2G-bDk">
+            <objects>
+                <viewController id="ms0-hB-BeW" customClass="TrackerViewController" customModule="SustainaBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vzy-cY-RuY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uvj-59-PGI">
+                                <rect key="frame" x="42" y="660" width="345" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="+1 SustainaBuddy Point"/>
+                                <connections>
+                                    <action selector="Button:" destination="ms0-hB-BeW" eventType="touchUpInside" id="SFC-I7-uzl"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uk-FE-ML1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="T7B-71-tBT">
+                                        <barButtonItem key="rightBarButtonItem" id="iUj-RG-FLk"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXv-wE-bGN">
+                                <rect key="frame" x="192" y="512" width="44" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACf-gI-c7u">
+                                <rect key="frame" x="17" y="141" width="381" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Every time you do something sustainable, you add a SustainaBuddy Point, the goal is to be more sustainable in  your everyday life!</string>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8Cp-eh-VZr"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="Label" destination="xXv-wE-bGN" id="W2D-3O-3dj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGZ-8V-Wi8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4386.9565217391309" y="2331.6964285714284"/>
         </scene>
         <!--Menu-->
         <scene sceneID="8nI-lr-BVb">
@@ -412,9 +480,9 @@ Ie. a classic white t-shirt that is a good quality, able to be used in many outf
                                 <rect key="frame" x="0.0" y="88" width="193" height="725"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yry-4d-InF">
-                                        <rect key="frame" x="29" y="56" width="134" height="60"/>
+                                        <rect key="frame" x="8" y="50" width="134" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="XBg-o8-cwF"/>
+                                            <constraint firstAttribute="height" constant="60" id="DSt-Na-HhP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Fashion">
@@ -438,30 +506,31 @@ Ie. a classic white t-shirt that is a good quality, able to be used in many outf
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gC-qU-XNf">
-                                        <rect key="frame" x="24" y="317" width="145" height="60"/>
+                                        <rect key="frame" x="8" y="317" width="145" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="8fA-4r-KJq"/>
+                                            <constraint firstAttribute="height" constant="60" id="Pdb-kq-fLK"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Tracking">
                                             <color key="titleColor" cyan="0.0" magenta="0.94999999999999996" yellow="0.20000000000000001" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ms0-hB-BeW" kind="show" id="eV9-GQ-jlD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" id="0HO-Eb-Rri"/>
                                     <constraint firstItem="SYc-dd-IJu" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="45" id="9Lk-Ne-5QC"/>
-                                    <constraint firstItem="SYc-dd-IJu" firstAttribute="top" secondItem="yry-4d-InF" secondAttribute="bottom" constant="70" id="KMc-Fd-rGr"/>
-                                    <constraint firstItem="yry-4d-InF" firstAttribute="top" secondItem="Pqj-jH-fi3" secondAttribute="topMargin" constant="48" id="Rpd-KP-kTV"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="0gC-qU-XNf" secondAttribute="trailing" constant="16" id="S2j-G2-JOg"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="yry-4d-InF" secondAttribute="trailing" constant="22" id="Tb7-V3-IXN"/>
-                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="16" id="Wb0-HO-QX5"/>
-                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="top" secondItem="SYc-dd-IJu" secondAttribute="bottom" constant="71" id="ZHn-xw-0an"/>
+                                    <constraint firstItem="yry-4d-InF" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" id="IJT-86-vIr"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="0gC-qU-XNf" secondAttribute="bottom" constant="340" id="Zsl-iQ-ugS"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="SYc-dd-IJu" secondAttribute="trailing" constant="45" id="duQ-C9-LT1"/>
-                                    <constraint firstItem="yry-4d-InF" firstAttribute="leading" secondItem="Pqj-jH-fi3" secondAttribute="leadingMargin" constant="21" id="e6B-ww-bLu"/>
                                     <constraint firstAttribute="width" constant="193" id="g8u-7o-d94"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="0gC-qU-XNf" secondAttribute="bottom" constant="340" id="ze2-7F-hct"/>
+                                    <constraint firstItem="SYc-dd-IJu" firstAttribute="top" secondItem="yry-4d-InF" secondAttribute="bottom" constant="76" id="ooI-cE-z7m"/>
+                                    <constraint firstItem="0gC-qU-XNf" firstAttribute="top" secondItem="SYc-dd-IJu" secondAttribute="bottom" constant="71" id="qw1-td-hDg"/>
+                                    <constraint firstItem="yry-4d-InF" firstAttribute="top" secondItem="Pqj-jH-fi3" secondAttribute="topMargin" constant="42" id="sWl-gY-iRG"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -489,7 +558,7 @@ Ie. a classic white t-shirt that is a good quality, able to be used in many outf
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wsQ-ef-XDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3689.8550724637685" y="1587.7232142857142"/>
+            <point key="canvasLocation" x="3709" y="1588"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wny-M5-9W8">
@@ -512,9 +581,14 @@ Ie. a classic white t-shirt that is a good quality, able to be used in many outf
     </scenes>
     <resources>
         <image name="Screen Shot 2019-06-26 at 11.41.23 AM" width="120" height="120"/>
+        <image name="farm-house-in-cartoon-style-isolated-on-white-vector-15645181" width="955" height="949"/>
         <image name="icons8-menu-50" width="50" height="50"/>
+        <image name="pcody44Xi" width="550" height="550"/>
+        <image name="sub" width="852" height="480"/>
+        <image name="unnamed" width="500" height="368"/>
+        <image name="urban" width="600" height="374"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sj7-fe-2bw"/>
+        <segue reference="TeB-c4-bZG"/>
     </inferredMetricsTieBreakers>
 </document>

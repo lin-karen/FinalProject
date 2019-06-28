@@ -18,6 +18,7 @@
 		18E984CD22C3C3A40043ADB8 /* SustainaBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E984CC22C3C3A40043ADB8 /* SustainaBuddyTests.swift */; };
 		18E984D822C3C3A40043ADB8 /* SustainaBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E984D722C3C3A40043ADB8 /* SustainaBuddyUITests.swift */; };
 		18EBE45B22C50BAF00139823 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBE45A22C50BAF00139823 /* ActionViewController.swift */; };
+		18ED4DFB22C65E2900BAD7AC /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED4DFA22C65E2900BAD7AC /* TrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		18E984D722C3C3A40043ADB8 /* SustainaBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainaBuddyUITests.swift; sourceTree = "<group>"; };
 		18E984D922C3C3A40043ADB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EBE45A22C50BAF00139823 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		18ED4DFA22C65E2900BAD7AC /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				18E984B422C3C3A20043ADB8 /* AppDelegate.swift */,
 				18E984B622C3C3A20043ADB8 /* ViewController.swift */,
 				18E984B822C3C3A20043ADB8 /* Main.storyboard */,
+				18ED4DFA22C65E2900BAD7AC /* TrackerViewController.swift */,
 				180BB3E922C54C0F00BAD12A /* MenuViewController.swift */,
 				18E984BE22C3C3A40043ADB8 /* Assets.xcassets */,
 				18E984C022C3C3A40043ADB8 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				18E984B522C3C3A20043ADB8 /* AppDelegate.swift in Sources */,
 				180BB3E822C5184900BAD12A /* ChangeNameViewController.swift in Sources */,
 				18EBE45B22C50BAF00139823 /* ActionViewController.swift in Sources */,
+				18ED4DFB22C65E2900BAD7AC /* TrackerViewController.swift in Sources */,
 				18E984BD22C3C3A20043ADB8 /* SustainaBuddy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
